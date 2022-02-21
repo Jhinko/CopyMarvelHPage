@@ -1,0 +1,140 @@
+@import url(Graphik,-apple-system,BlinkMacSystemFont,);
+@import url(BlinkMacSystemFont);
+
+*{
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+
+#topNav {
+    background-color: #ffff;
+    /*box-shadow: 5px 2px 2px #8792a1;*/
+    display: flex;
+    justify-content:center;
+    padding: 1vh;
+    gap: 0.2em;
+    overflow: hidden;    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.content {
+    padding-top: 60px;
+}
+
+.LogoMv {
+    margin-right: 30%;
+    margin-top: -0.9vh;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 1vh;
+    font-weight: 600;
+    font-family: Graphik,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+
+.dropbtn {
+    font-weight: 600;
+    font-family: Graphik,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    border: none;
+    background-color: #ffff;
+  }
+
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 1vh;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffff ;
+    border: black;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+#SignUp {
+    font-family: Graphik,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    background-color: #1fb6ff;
+    font-weight: 600;
+    width: 113px;
+    height: 40px;
+    color: white;
+    border-radius: 20px;
+    border: none;
+  }
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+footer {
+    background-color: #0c1014;
+    margin-bottom: 0;
+}
+
+.MarvelImg {
+    padding-top: 4.5vh;
+}
+
+#FooterWrap {
+    gap: 6rem;
+    justify-content: center;
+
+}
+#FooterWrap, li{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+@media (min-width: 48em) {
+    #FooterWrap {
+      flex-wrap: nowrap;
+    }
+  }
+
+h3 {
+    font-family: Graphik,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+    color: #ffff;
+}
+
+.FooterGrey  {
+    color:#8792a1;
+}
+
+li {
+    width: 130px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
